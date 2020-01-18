@@ -1,6 +1,6 @@
 Name: perl-Net-SMTP-SSL
 Version: 1.01
-Release: 12.1%{?dist}
+Release: 13%{?dist}
 Summary: SSL support for Net::SMTP
 Group: Development/Libraries
 License: GPL+ or Artistic
@@ -43,6 +43,9 @@ make %{?_smp_mflags} test
 %{_mandir}/man3/Net::SMTP::SSL.3*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.01-13
+- Mass rebuild 2013-12-27
+
 * Wed Aug 15 2012 Daniel Mach <dmach@redhat.com> - 1.01-12.1
 - Rebuild for perl 5.16
 
